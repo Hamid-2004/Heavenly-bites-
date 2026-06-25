@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary: #f57ba5;
+  --color-primary-dark: #e45f8f;
+  --color-secondary: #ffd9e5;
+  --color-background: #fff8fa;
+  --color-surface: #ffffff;
+  --color-dark: #2d2d2d;
+  --color-gray: #666666;
+  --color-muted: #9a9a9a;
+
+  --font-heading: var(--font-cormorant);
+  --font-body: var(--font-poppins);
+  --font-accent: var(--font-great-vibes);
+
+  --shadow-soft: 0 8px 32px rgba(245, 123, 165, 0.12);
+  --shadow-card: 0 12px 40px rgba(45, 45, 45, 0.08);
+  --shadow-glow: 0 20px 60px rgba(245, 123, 165, 0.25);
+  --shadow-nav: 0 4px 24px rgba(45, 45, 45, 0.06);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-dark font-body antialiased;
+  }
+
+  ::selection {
+    @apply bg-secondary text-dark;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/40;
+  }
+
+  .glass-pink {
+    @apply bg-secondary/40 backdrop-blur-xl border border-white/50;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent;
+  }
+
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8 py-16 md:py-24;
+  }
+
+  .container-custom {
+    @apply mx-auto max-w-7xl;
+  }
+}
