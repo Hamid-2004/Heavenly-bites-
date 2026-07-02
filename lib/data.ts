@@ -38,7 +38,7 @@ export const products: Product[] = [
     description: "Layers of velvety sponge with rose-infused buttercream and edible petals.",
     price: 4500,
     category: "Cakes",
-    image: "/images/cake-1.jpg",
+    image: "/images/cake-1.png",
   },
   {
     id: "strawberry-bliss",
@@ -46,7 +46,7 @@ export const products: Product[] = [
     description: "Buttery crust filled with vanilla custard and fresh seasonal strawberries.",
     price: 2800,
     category: "Tarts",
-    image: "/images/cake-2.jpg",
+    image: "/images/cake-2.png",
   },
   {
     id: "lavender-macarons",
@@ -54,7 +54,7 @@ export const products: Product[] = [
     description: "A dozen delicate French macarons in lavender, rose, and vanilla flavors.",
     price: 3200,
     category: "Pastries",
-    image: "/images/cake-3.jpg",
+    image: "/images/cake-3.png",
   },
   {
     id: "chocolate-ganache",
@@ -62,7 +62,7 @@ export const products: Product[] = [
     description: "Rich Belgian chocolate cake with silky ganache and gold leaf accents.",
     price: 5200,
     category: "Cakes",
-    image: "/images/cake-4.jpg",
+    image: "/images/cake-4.png",
   },
   {
     id: "berry-parfait",
@@ -70,7 +70,7 @@ export const products: Product[] = [
     description: "Layers of mascarpone cream, berry compote, and crushed almond crumble.",
     price: 1800,
     category: "Desserts",
-    image: "/images/cake-5.jpg",
+    image: "/images/cake-5.png",
   },
   {
     id: "gift-basket",
@@ -78,7 +78,7 @@ export const products: Product[] = [
     description: "Curated selection of our finest pastries, cookies, and artisan chocolates.",
     price: 7500,
     category: "Gift Baskets",
-    image: "/images/cake-6.jpg",
+    image: "/images/cake-6.png",
   },
 ];
 
@@ -104,8 +104,8 @@ export const aboutFeatures: AboutFeature[] = [
 ];
 
 export const customerAvatars = [
-  "/images/avatar-1.jpg",
-  "/images/avatar-2.jpg",
-  "/images/avatar-3.jpg",
-  "/images/avatar-4.jpg",
+  "/images/cake-1.png",
+  "/images/cake-2.png",
+  "/images/cake-3.png",
+  "/images/cake-4.png",
 ];

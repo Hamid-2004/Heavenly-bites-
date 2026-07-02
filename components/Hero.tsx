@@ -140,7 +140,7 @@ export default function Hero() {
               className="relative aspect-[4/5] overflow-hidden rounded-[2.5rem] shadow-card"
             >
               <Image
-                src="/images/hero-cake.jpg"
+                src="/images/cake-6.png"
                 alt="Featured rose velvet celebration cake with elegant decorations"
                 fill
                 priority

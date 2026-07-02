@@ -119,7 +119,7 @@ export default function About() {
                   className="relative aspect-[3/4] overflow-hidden rounded-3xl shadow-card"
                 >
                   <Image
-                    src="/images/about-1.jpg"
+                    src="/images/cake-1.png"
                     alt="Baker decorating a cake with precision"
                     fill
                     className="object-cover"
@@ -131,7 +131,7 @@ export default function About() {
                   className="relative aspect-square overflow-hidden rounded-3xl shadow-card"
                 >
                   <Image
-                    src="/images/about-2.jpg"
+                    src="/images/cake-2.png"
                     alt="Fresh pastries on display"
                     fill
                     className="object-cover"
@@ -146,7 +146,7 @@ export default function About() {
                   className="relative aspect-square overflow-hidden rounded-3xl shadow-card"
                 >
                   <Image
-                    src="/images/about-3.jpg"
+                    src="/images/cake-6.png"
                     alt="Elegant wedding cake centerpiece"
                     fill
                     className="object-cover"
@@ -158,7 +158,7 @@ export default function About() {
                   className="relative aspect-[3/4] overflow-hidden rounded-3xl shadow-card"
                 >
                   <Image
-                    src="/images/about-4.jpg"
+                    src="/images/cake-4.png"
                     alt="Artisan baking ingredients"
                     fill
                     className="object-cover"
